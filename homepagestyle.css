@@ -1,13 +1,42 @@
+
+
+
 h2 {
-    color: blue
+    text-align: center
 }
+
+body {
+    background-color: teal;
+}
+
+.item1 {grid-area: header;}
+.item2 {grid-area: main;}
+.item3 {grid-area: footer;}
 
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 454;
+    height: 361;
 }
 
-h2 {
-    text-align: center
+.item3 img{
+    width: 5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'header'
+    'main'
+    'footer';
+    padding: 10px;
+    gap: 10px;
+}
+
+.grid-container > div {
+    background-color: lightblue;
+    text-align: center;
+    padding: 20px 0;
 }
