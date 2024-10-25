@@ -12,6 +12,7 @@ body {
 .item1 {grid-area: header;}
 .item2 {grid-area: main;}
 .item3 {grid-area: footer;}
+.item4 {grid-area: ads;}
 
 .center {
     display: block;
@@ -25,12 +26,17 @@ body {
     width: 5%;
 }
 
+.item4 img{
+    height: 300px;
+    width: 300px;
+}
+
 .grid-container {
     display: grid;
     grid-template-areas: 
-    'header'
-    'main'
-    'footer';
+    'header header header'
+    'ads main main'
+    'footer footer footer';
     padding: 10px;
     gap: 10px;
 }
