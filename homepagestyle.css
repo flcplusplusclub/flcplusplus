@@ -26,9 +26,12 @@ body {
     width: 5%;
 }
 
-.item4 img{
-    height: 300px;
-    width: 300px;
+.item4 {
+    background-image: url("ads/ad1.PNG");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-decoration: none;
 }
 
 .grid-container {
